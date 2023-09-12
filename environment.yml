@@ -1,0 +1,10 @@
+name: env
+channels:
+  - bioconda
+dependencies:
+  - python=2.7
+  - pysam
+  - minimap2=2.15
+  - samtools=1.9
+  - statsmodels=0.10.1
+  - flye
