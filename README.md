@@ -1,4 +1,4 @@
-# FHGAON - **Fungal High-quality to Genome Assembly using Oxford Nanopore**
+# FHGAON - **Fungal High-quality Genome Assembly using Oxford Nanopore**
 
 ![](media/FHGAON_header.png)
 
