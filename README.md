@@ -50,7 +50,7 @@ If basecalling is required please provide the following:
 ```
 #### Step I: Clone the github repo to your local machine
 ```
-git clone https://github.com/jtndr011/FHGAON.git
+git clone https://github.com/NDSUrustlab/FHGAON.git
 cd FHGAON
 ```
 #### Step II: Copy the raw pod5 files folder or basecalled fastq file to `FHGAON` folder
