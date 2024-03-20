@@ -72,3 +72,6 @@ necat_final_asm_path = os.path.abspath(os.path.expanduser(os.path.expandvars('NE
 # running inspector
 
 run_inspector(necat_final_asm_path, porechop_fastq_path)
+
+# copying the final polished assembly to output folder
+cp necat_final_asm_path output_dir
