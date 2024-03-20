@@ -20,7 +20,7 @@ raw_reads_group.add_argument('-m', '--basecall_model', metavar='', help='Basecal
 raw_reads_group.add_argument('-b', '--basecall_type', metavar='', default='basecaller', help='Type of basecalling - simplex (default) or duplex.')
 
 parser.add_argument('-g', '--genome_size', metavar='', type=int, help='Estimated size of the genome', required=True)
-parser.add_argument('-t', '--threads', metavar='', type=int, default=4, help='Number of threads')
+parser.add_argument('-t', '--threads', metavar='', type=int, default=12, help='Number of threads')
 parser.add_argument('-p', '--project', metavar='', type=str, default='my_project', help='Name of the project')
 parser.add_argument('-o', '--output', metavar='', type=str, default='fhgaon_output', help='Output directory path')
 
@@ -50,7 +50,7 @@ if args.raw_reads:
     fastq_location = os.path.abspath(os.path.expanduser(os.path.expandvars("dorado_output.fastq")))
 
     
-print('fastq_path', fastq_location)
+## print('fastq_path', fastq_location)
 # running porechop
 
 run_porechop(fastq_location)
