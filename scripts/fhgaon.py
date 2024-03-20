@@ -4,6 +4,7 @@ from main import run_inspector
 from dorado import run_dorado
 import argparse
 import os
+import shutil
 
 ##################################################
 
@@ -74,4 +75,4 @@ necat_final_asm_path = os.path.abspath(os.path.expanduser(os.path.expandvars('NE
 run_inspector(necat_final_asm_path, porechop_fastq_path)
 
 # copying the final polished assembly to output folder
-cp necat_final_asm_path output_dir
+shutil.copy(necat_final_asm_path, output_dir)
